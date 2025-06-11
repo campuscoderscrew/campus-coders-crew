@@ -12,6 +12,8 @@ import './app.css';
 import { Header } from './components/Header';
 import { Events } from './pages/Events';
 import Archive from './pages/Archive';
+import Projects from './pages/Projects';
+
 
 
 export default function App() {
@@ -22,6 +24,7 @@ export default function App() {
       <Route path="/requests" element={<Requests/>}/>
       <Route path='/events' element={<Events />} />
       <Route path='/archive' element={<Archive />} />
+      <Route path='/projects' element={<Projects />} />
     </Routes>
   );
 }
