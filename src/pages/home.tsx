@@ -11,9 +11,9 @@ export default function Home() {
             <Header />
             <main className="flex-grow flex flex-col">
                 <HomeSection />
-                <div className="h-64" />
+                <div className="h-40" />
                 <Team/>
-                <div className="h-64"/>
+                <div className="h-40"/>
                 <Footer />
             </main>
         </div>

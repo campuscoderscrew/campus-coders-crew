@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { useSpring, animated, useInView } from '@react-spring/web';
 
-import brennen_pic from "../../public/profiles/brennen.jpg"
-import franco_pic from "../../public/profiles/franco.png"
 
 export function Team() {
     const [ref, inView] = useInView({
@@ -53,7 +51,7 @@ export function Team() {
                                 <div className="absolute w-full h-full" style={{ backfaceVisibility: 'hidden' }}>
                                     <div className="relative rounded-full h-80 w-80 overflow-hidden">
                                         <img 
-                                            src={brennen_pic} 
+                                            src="/profiles/brennen.jpg"
                                             alt="Brennen"
                                             className="h-full w-full"
                                         />
@@ -95,7 +93,7 @@ export function Team() {
                                 <div className="absolute w-full h-full" style={{ backfaceVisibility: 'hidden' }}>
                                     <div className="relative rounded-full h-80 w-80 overflow-hidden">
                                         <img 
-                                            src={franco_pic} 
+                                            src="/profiles/franco.png"
                                             alt="Franco"
                                             className="h-full w-full"
                                         />

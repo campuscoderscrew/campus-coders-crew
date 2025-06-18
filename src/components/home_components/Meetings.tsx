@@ -1,5 +1,4 @@
-import clock_logo from '../../../public/clock_logo.png'
-import location_logo from '../../../public/location_logo.png'
+
 
 export function Meetings(){
     const eventDetails = [
@@ -35,7 +34,7 @@ export function Meetings(){
                         <div className='flex flex-col gap-y-2'>
                             <div className="flex flex-row items-center gap-x-2">
                                 <img 
-                                    src={clock_logo}
+                                    src="/clock_logo.png"
                                     alt='clock logo'
                                     width={20}
                                     height={20}
@@ -44,7 +43,7 @@ export function Meetings(){
                             </div>
                             <div className="flex flex-row items-center gap-x-2">
                                 <img 
-                                    src={location_logo}
+                                    src="/location_logo.png"
                                     alt='location logo'
                                     width={20}
                                     height={20}

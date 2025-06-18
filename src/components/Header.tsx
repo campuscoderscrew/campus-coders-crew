@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import CCC_icon from "../../public/campus_coders_crew_icon.png"
+
 
 import { Link } from "react-router-dom";
 import { Padding } from './Padding';
