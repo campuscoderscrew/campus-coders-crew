@@ -13,6 +13,7 @@ import { Header } from './components/Header';
 import { Events } from './pages/Events';
 import Archive from './pages/Archive';
 import Projects from './pages/Projects';
+import SinglePage from './pages/SinglePage';
 
 
 
@@ -20,6 +21,7 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path = "singlepage" element = {<SinglePage/>} />
       <Route path="/main-website" element={<Home />} />
       <Route path="/crew" element={<Crew />} />
       <Route path="/requests" element={<Requests/>}/>

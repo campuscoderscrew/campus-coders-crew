@@ -7,6 +7,10 @@ interface pageLinkInterface {
 
 const pages: pageLinkInterface[] = [
 {
+    pagePath: "/singlepage",
+    pageName: "SINGLEPAGE"
+},
+{
     pagePath: "/",
     pageName: "HOME"
 },
