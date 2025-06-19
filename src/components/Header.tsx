@@ -26,7 +26,8 @@ export function Header() {
     };
   }, []);
 
-  const headerBGColor = scrolledPastHero ? 'bg-[#2D336B]' : 'bg-transparent';
+  // const headerBGColor = scrolledPastHero ? 'bg-[#2D336B]' : 'bg-transparent';
+  const headerBGColor = 'bg-[#2D336B]';
 
   return (
     <header className={`fixed top-0 left-0 right-0 ${headerBGColor} p-4 md:p-1 z-50 flex text-white`}>
@@ -34,7 +35,7 @@ export function Header() {
       <div className="flex-70 justify-between items-center align-middle md:mt-2">  
         <nav className="space-x-6 font-neuton text-2xl flex justify-end">
 
-          
+
           <div className="relative">
             <Link 
               to="/" 
