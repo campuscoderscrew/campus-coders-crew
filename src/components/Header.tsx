@@ -33,6 +33,8 @@ export function Header() {
       <Padding/>
       <div className="flex-70 justify-between items-center align-middle md:mt-2">  
         <nav className="space-x-6 font-neuton text-2xl flex justify-end">
+
+          
           <div className="relative">
             <Link 
               to="/" 
