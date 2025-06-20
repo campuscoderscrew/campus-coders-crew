@@ -116,10 +116,65 @@ export default function Crew() {
                         Members
                     </div>
 
-                    <div className="flex flex-row justify-center ">
+                    {/* <div className="flex flex-row justify-center ">
                         {MembersData.map((profile) => (
                         <RenderProfile profile={profile} />
                         ))}
+                    </div> */}
+                    
+                    {/* Pink box for team icons */}
+                    <div className = "w-screen aspect-[1920/2842] relative">
+
+                         {/* First purple box */}
+                         <div className="bg-[#A9B5DF] absolute rounded-2xl shadow-lg border border-[#9BAAE2]"
+                            style = {{
+                                //60px between "walls"/1920 width
+                                left: "3.125%",
+                                
+                                //93.25px between each box and top and bottom/2842 height (48/2842)
+                                top: "1.689%",
+
+                                //standard width for all boxes 1755px/1920px
+                                width: "91.406%",
+                                
+                                //standard height for all boxes 823px/2842px
+                                height: "28.958%"
+                            }}>
+                         </div>
+
+                         {/* Second purple box */}
+                         <div className="bg-[#A9B5DF] absolute rounded-2xl shadow-lg border border-[#9BAAE2]"
+                            style = {{
+                                //60px between "walls"/1920 width
+                                left: "3.125%",
+                                
+                                //93.25px between each box and top and bottom/2842 height (982/2842)
+                                top: "34.553%",
+
+                                //standard width for all boxes 1755px/1920px
+                                width: "91.406%",
+                                
+                                //standard height for all boxes 823px/2842px
+                                height: "28.958%"
+                            }}>
+                         </div>
+
+                         {/* Third purple box */}
+                         <div className="bg-[#A9B5DF] absolute rounded-2xl shadow-lg border border-[#9BAAE2]"
+                            style = {{
+                                //60px between "walls"/1920 width
+                                left: "3.125%",
+                                
+                                //93.25px between each box and top and bottom/2842 height (1902/2842)
+                                top: "66.925%",
+
+                                //standard width for all boxes 1755px/1920px
+                                width: "91.406%",
+                                
+                                //standard height for all boxes 823px/2842px
+                                height: "28.958%"
+                            }}>
+                         </div>
                     </div>
 
                 </div>
