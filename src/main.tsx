@@ -21,8 +21,8 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path = "singlepage" element = {<SinglePage/>} />
-      <Route path="/main-website" element={<Home />} />
+      <Route path="singlepage" element = {<SinglePage/>} />
+      <Route path="/ccc" element={<Home />} />
       <Route path="/crew" element={<Crew />} />
       <Route path="/requests" element={<Requests/>}/>
       <Route path='/events' element={<Events />} />
