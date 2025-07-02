@@ -6,7 +6,9 @@ export default function Archive() {
     return (
         <>
             <Header />
-            <div className="min-h-screen bg-linear-to-t from-[#2D336B] to-[#FFF2F2]">
+            <div 
+                className="h-screen bg-linear-to-t from-[#2D336B] to-[#FFF2F2] bg-[url('/archive-bg-image.png')] bg-cover bg-center bg-no-repeat"
+            > 
 
                 <h1 className="text-6xl text-center text-[#2D336B] font-neuton mt-30 font-bold tracking-widest">
                     ARCHIVE
