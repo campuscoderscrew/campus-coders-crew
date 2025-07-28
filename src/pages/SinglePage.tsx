@@ -58,6 +58,17 @@ function FAQSection() {
 function EventsSection() {
     return (
         <>
+        <div className="h-screen bg-linear-to-t from-[#193463] to-[#034478]"> 
+            <h1 className="text-center font-instru text-[#FFFFFD] text-5xl font-bold mt-4"> Our Crew </h1> 
+            <h2 className="text-center font-instru text-[#CBF0F9] text-4xl font-bold mt-8"> Executive Board </h2>
+
+            <div className="flex justify-center mt-20 space-x-20"> 
+                <div className="w-50 h-50 rounded-full bg-[#FAF7EC]"> </div>
+                <div className="w-50 h-50 rounded-full bg-[#FAF7EC]"> </div>
+
+            </div>
+
+        </div>
         </>
     )
 }
