@@ -3,7 +3,7 @@ import type { Profile } from "src/types"
 const MembersData : Profile[]= [
     {
         name: "Alvin Zhou",
-        officialTitle: "",
+        officialTitle: "Team Lead",
         funTitle: "",
         image: "",
         major: "",
